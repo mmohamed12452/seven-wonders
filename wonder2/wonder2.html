@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="../Assets/css/style.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title>Wonder 2 - Perito Moreno Glacier, Argentina</title>
+  </head>
+  <body class="bg" background="../Assets/images/w2.jpg">
+    <header>
+      <h1 class="is-size-1"><center><strong>Perito Moreno Glacier, Argentina</strong></center></h1>
+      <h2 class="is-size-3"><center><strong>Second Wonder of the World</strong></center></h2>      
+      <p class="is-size-5"><center><strong>
+        Perito Moreno is one of the major tourist attractions in southern Patagonia and the rupture of this glacier is considered one of the most impressive natural spectacles in the world.
+      <p>
+        <a
+          href="https://www.cntraveler.com/gallery/new-seven-wonders-of-the-world-2023"
+          >Article for 7 Wonders of the World 2023</a>
+      </p>  
+    </strong></center></p>
+    </header>
+    <div id="map"></div>
+    <div id="pano"></div>
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+      <a href="../wonder1/wonder1.html" class="pagination-previous"><FONT COLOR="#ffffff">Previous</FONT></a>
+      <a href="../wonder3/wonder3.html" class="pagination-next"><FONT COLOR="#ffffff">Next</FONT></a>
+      <a href="../index.html" class="pagination-next"><FONT COLOR="#ffffff">Home</FONT></a>
+      <ul class="pagination-list">
+        <li><a href="../wonder1/wonder1.html" class="pagination-link" aria-label="Goto page 1"><FONT COLOR="#ffffff">1</FONT></a></li>
+        <li><a class="pagination-link is-current" aria-label="Page 2" aria-current="page"><FONT COLOR="#ffffff">2</FONT></a></li>
+        <li><a href="../wonder3/wonder3.html" class="pagination-link" aria-label="Goto page 3"><FONT COLOR="#ffffff">3</FONT></a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a href="../wonder7/wonder7.html" class="pagination-link" aria-label="Goto page 7"><FONT COLOR="#ffffff">7</FONT></a></li>
+      </ul>
+    </nav>
+    
+    <div class="columns flex-wrap">      
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <div id = "content" class="content is-size-6">
+              <h2 class="is-size-4">Trip Advisor</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwaFo3BogmCaeg4GdJkRBLigEA1vHZzF4&callback=initialize&v=weekly"
+      defer
+    ></script>
+    <script src="./assets/js/w2script.js"></script>
+    <script src="./assets/js/TripAdvisor2JS.js"></script>
+    <script src="../home-page/assets/js/script.js"></script>
+  </body>
+</html>

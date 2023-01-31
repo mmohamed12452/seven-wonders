@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="../Assets/css/style.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title>Wonder 6 - The Lake District, Great Britain</title>
+  </head>
+
+  <body background="../Assets/images/w6.jpg">
+    <header>
+      <h1 class="is-size-1"><center><strong>The Lake District, Great Britain</strong></center></h1>
+      <h2 class="is-size-3"><center><strong>Sixth Wonder of the World</strong></center></h2>      
+      <p class="is-size-5"><center><strong>
+        The 885-square-mile Lake District is a hauntingly beautiful part of northwest England that was voted the nation's favorite national park in 2018. The region seduced Wordsworth and other literary giants, and continues to attract sightseers, walkers and adventurers in search of its fascinating heritage and abundant outdoor activities.
+      </p>
+      <p><a
+          href="https://www.cntraveler.com/gallery/new-seven-wonders-of-the-world-2023"
+          >Article for 7 Wonders of the World 2023</a>
+      </p>  
+    </strong></center></p>
+    </header>
+    <div id="map"></div>
+    <div id="pano"></div>
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+      <a href="../wonder5/wonder5.html" class="pagination-previous"><FONT COLOR="#ffffff">Previous</FONT></a>
+      <a href="../wonder7/wonder7.html" class="pagination-next"><FONT COLOR="#ffffff">Next</FONT></a>
+      <a href="../index.html" class="pagination-next"><FONT COLOR="#ffffff">Home</FONT></a>
+      <ul class="pagination-list">
+        <li><a href="../wonder1/wonder1.html" class="pagination-link" aria-label="Goto page 1"><FONT COLOR="#ffffff">1</FONT></a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a href="../wonder5/wonder5.html" class="pagination-link" aria-label="Goto page 5"><FONT COLOR="#ffffff">5</FONT></a></li>
+        <li><a class="pagination-link is-current" aria-label="Page 6" aria-current="page"><FONT COLOR="#ffffff">6</FONT></a></li>
+        <li><a href="../wonder7/wonder7.html" class="pagination-link" aria-label="Goto page 7"><FONT COLOR="#ffffff">7</FONT></a></li>
+      </ul>
+    </nav>      
+    
+    <div class="columns flex-wrap">      
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <div id="content" class="content is-size-6">
+              <h2 class="is-size-4">Trip Advisor</h2>
+          </div>
+        </div>
+      </div>
+
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwaFo3BogmCaeg4GdJkRBLigEA1vHZzF4&callback=initialize&v=weekly"
+      defer
+    ></script>
+    <script src="./assets/js/w6script.js"></script>
+    <script src="./assets/js/TripAdvisor6JS.js"></script>
+    <script src="../home-page/assets/js/script.js"></script>
+  </body>
+</html>
